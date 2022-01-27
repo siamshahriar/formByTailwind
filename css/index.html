@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gradient-to-r from-purple-500 to-pink-500">
+    <div class="min-h-screen">
+      <header
+        class="text-3xl text-green-200 h-72 flex justify-center items-center"
+      >
+        <h1>TO DO LIST</h1>
+      </header>
+      <form class="flex justify-center items-center w-1/2">
+        <input
+          type="text"
+          class="todo-input block min-w- p-2 text-2xl border bg-white rounded-md focus:outline-none focus:ring-1 focus:ring-sky-300"
+        />
+        <button
+          class="todo-button text-pink-500 relative top-0 right-12 p-2 h-12 w-12 ease-in-out duration-300 hover:bg-pink-400 hover:text-white rounded-md"
+          type="submit"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"
+            />
+          </svg>
+        </button>
+      </form>
+      <div class="todo-container flex justify-center items-center min-w-full">
+        <ul class="todo-list list-none">
+          <!-- <div class="todo">
+                        <li></li>
+                        <button></button>
+                        <button></button>
+                    </div> -->
+        </ul>
+      </div>
+
+      <p class=""></p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

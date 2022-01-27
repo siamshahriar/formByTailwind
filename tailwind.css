@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.customInput{
+   @apply border-2 border-gray-300 rounded w-full p-2 outline-none focus:border-purple-400 
+}
+.customLabel{
+    @apply text-stone-700 font-bold block mb-2;
+}
